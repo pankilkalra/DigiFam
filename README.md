@@ -14,4 +14,15 @@ Python3 and MySQL is needed.
 5) matplotlib
 6) math
 
+Final_dump.sql is the database dump file.
 
+## Instructions for importing the dump file
+1) Execute the command 'mysql -u root -p'
+2) Enter password
+3) Execute mysql command: 'create database digifam'
+4) Exit mysql command line
+5) Execute command: 'mysql -u root -p -h localhost digifam < final_dump.sql'
+
+## Instructions for running the query-builder
+1) For feeding the password in the mysql-python connection, I have stored the password using pickle in a file and I then pass it to the connection. You can comment the lines 332-334 and pass the password directly in line 361.
+2) You can run the main project script using command 'python main_script.py'.
