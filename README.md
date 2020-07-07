@@ -26,3 +26,10 @@ Final_dump.sql is the database dump file.
 ## Instructions for running the query-builder
 1) For feeding the password in the mysql-python connection, I have stored the password using pickle in a file and I then pass it to the connection. You can comment the lines 332-334 and pass the password directly in line 361.
 2) You can run the main project script using command 'python main_script.py'.
+
+Created by:
+1) Pankil Kalra
+2) Ishan Kapur
+3) Smera Goel
+4) Ali Naqi
+5) Prashant
