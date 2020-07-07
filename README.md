@@ -6,8 +6,8 @@ We have maintained a family database and have built a query builder in python.
 
 Python3 and MySQL is needed.
 
-## wip document:
-It contains abstract,ER model, Database scheme, 18 queries (Relational+advance),indexes which can be used in the code below as examples.
+## Project Document:
+It contains abstract, ER model, Database schema, different query examples for the project.
 
 ## Python Dependencies:
 1) mysql-connector-python
